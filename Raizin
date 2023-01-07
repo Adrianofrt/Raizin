@@ -1,0 +1,25 @@
+#include<stdio.h>
+
+int main()
+{
+
+ printf ("------------------Cálculo de raiz quadrada de números inteiros------------------\n");
+
+ int numero, raiz, aux;
+
+ printf("Digite um número inteiro maior que zero: ");
+ scanf("%d", &numero);
+
+ aux = numero;
+
+    for (; numero > aux / 2; numero --) { 
+        if (numero * numero == aux)
+        raiz = numero;
+     else    
+         numero ++;       
+  }
+
+ printf(" A raiz quadrada do número é %d, raiz");  
+
+ return (0);
+}
