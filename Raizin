@@ -13,10 +13,10 @@ int main()
  aux = numero;
 
     for (; numero > aux / 2; numero --) { 
-        if (numero * numero == aux)
+      if (numero * numero == aux)
         raiz = numero;
-     else    
-         numero ++;       
+      else    
+        numero ++;       
   }
 
  printf(" A raiz quadrada do número é %d, raiz");  
