@@ -19,7 +19,7 @@ int main()
         numero ++;       
   }
 
- printf(" A raiz quadrada do número é %d, raiz");  
+ printf(" A raiz quadrada do número é %d", raiz);  
 
  return (0);
 }
